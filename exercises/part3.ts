@@ -13,4 +13,4 @@ let milesPerKilometer: number = 0.621;
 
 
 
-// Call the function and print the output:
+// Call the function and print the outputs for the Mars trip and the moon trip:

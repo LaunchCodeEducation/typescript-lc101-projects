@@ -21,5 +21,5 @@ let kilometersToTheMoon: number = 384400;
 // Create an instance of the class here:
 
 
-// Code two output statements - one for the trip to Mars and one for the trip
-// to the Moon:
+// Print two outputs - one for the trip to Mars and one for the trip to the moon.
+

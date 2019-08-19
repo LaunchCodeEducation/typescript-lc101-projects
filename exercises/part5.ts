@@ -1,4 +1,4 @@
-// Add your import statement to line 2:
+// Add your import statement here:
 
 
 let kilometersToMars: number = 225000000;

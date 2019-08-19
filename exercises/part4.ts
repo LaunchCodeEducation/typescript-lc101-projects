@@ -1,6 +1,3 @@
-// Part 5 - Add your import statement to line 2:
-
-
 let kilometersToMars: number = 225000000;
 let kilometersToTheMoon: number = 384400;
 
@@ -17,4 +14,12 @@ let kilometersToTheMoon: number = 384400;
 //   return hours / 24;
 // }
 
-// Part 4 - Define your Spacecraft class here:
+// Define your Spacecraft class here:
+
+
+
+// Create an instance of the class here:
+
+
+// Code two output statements - one for the trip to Mars and one for the trip
+// to the Moon:

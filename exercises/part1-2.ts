@@ -12,4 +12,4 @@
 
 
 
-// Part 3: Define the 'getDaysToLocation' function here:
+// Code the output statement here:

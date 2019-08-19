@@ -1,10 +1,9 @@
 "use strict";
 exports.__esModule = true;
-// Part 5 - Add your import statement to line 2:
+// Add your import statement to line 2:
 var SpaceLocation_1 = require("./SpaceLocation");
 var kilometersToMars = 225000000;
 var kilometersToTheMoon = 384400;
-// Part 4 - Define your Spacecraft class here:
 var Spacecraft = /** @class */ (function () {
     function Spacecraft(name, speedMph) {
         this.milesPerKilometer = 0.621;
@@ -21,6 +20,8 @@ var Spacecraft = /** @class */ (function () {
     };
     return Spacecraft;
 }());
+// Create an instance of Spacecraft:
 var spaceShuttle = new Spacecraft('Discovery', 17500);
+// Print the output for the trips to Mars and the moon:
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('the Moon', kilometersToTheMoon));

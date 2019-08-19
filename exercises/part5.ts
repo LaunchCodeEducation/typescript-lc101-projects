@@ -1,10 +1,9 @@
-// Part 5 - Add your import statement to line 2:
+// Add your import statement to line 2:
 import { SpaceLocation } from './SpaceLocation';
 
 let kilometersToMars: number = 225000000;
 let kilometersToTheMoon: number = 384400;
 
-// Part 4 - Define your Spacecraft class here:
 class Spacecraft {
     milesPerKilometer: number = 0.621;
     name: string;
@@ -26,7 +25,9 @@ class Spacecraft {
     }
 }
 
+// Create an instance of Spacecraft:
 let spaceShuttle = new Spacecraft('Discovery', 17500);
 
+// Print the output for the trips to Mars and the moon:
 spaceShuttle.printDaysToLocation(new SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation('the Moon', kilometersToTheMoon));

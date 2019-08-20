@@ -13,7 +13,14 @@ var astronauts = [
 ];
 for (var i = 0; i < astronauts.length; i++) {
     var astronaut = astronauts[i];
-    console.log(astronaut.name, falcon9.addAstronaut(astronaut));
+    var status_1 = '';
+    if (falcon9.addAstronaut(astronaut)) {
+        status_1 = "On board";
+    }
+    else {
+        status_1 = "Not on board";
+    }
+    console.log(astronaut.name + ": " + status_1);
 }
 var cargo = [
     new Cargo_1.Cargo(3107.39, "Satellite"),
@@ -24,6 +31,13 @@ var cargo = [
 ];
 for (var i = 0; i < cargo.length; i++) {
     var c = cargo[i];
-    console.log(c.material, falcon9.addCargo(c));
+    var loaded = '';
+    if (falcon9.addCargo(c)) {
+        loaded = "Loaded";
+    }
+    else {
+        loaded = "Not loaded";
+    }
+    console.log(c.material + ": " + loaded);
 }
 console.log("Final cargo and astronaut mass: " + falcon9.currentMassKg() + " kg.");

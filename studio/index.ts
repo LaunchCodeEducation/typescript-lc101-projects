@@ -13,9 +13,15 @@ let astronauts: Astronaut[] = [
    new Astronaut(99, 'Charles')
 ];
 
-for (let i =0; i < astronauts.length; i++) {
+for (let i = 0; i < astronauts.length; i++) {
    let astronaut = astronauts[i];
-   console.log(astronaut.name, falcon9.addAstronaut(astronaut));
+   let status = '';
+   if (falcon9.addAstronaut(astronaut)) {
+       status = "On board";
+   } else {
+       status = "Not on board";
+   }
+   console.log(`${astronaut.name}: ${status}`);
 }
 
 let cargo: Cargo[] = [
@@ -26,9 +32,15 @@ let cargo: Cargo[] = [
    new Cargo(2107.39, "Tesla Roadster"),
 ];
 
-for (let i =0; i < cargo.length; i++) {
+for (let i = 0; i < cargo.length; i++) {
    let c = cargo[i];
-   console.log(c.material, falcon9.addCargo(c));
+   let loaded = '';
+   if (falcon9.addCargo(c)) {
+       loaded = "Loaded"
+   } else {
+       loaded = "Not loaded"
+   }
+   console.log(`${c.material}: ${loaded}`);
 }
 
 console.log(`Final cargo and astronaut mass: ${falcon9.currentMassKg()} kg.`);

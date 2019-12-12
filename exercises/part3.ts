@@ -14,7 +14,7 @@ function getDaysToLocation(kilometersAway: number): number {
     let hours: number = milesAway / speedMph;
     let daysToMars: number = hours / 24;
     
-    return milesAway;
+    return daysToMars;
 
 }
 

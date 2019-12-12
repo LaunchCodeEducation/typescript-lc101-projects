@@ -10,6 +10,7 @@ function getDaysToLocation(kilometersAway) {
     var milesAway = kilometersAway * milesPerKilometer;
     var hours = milesAway / speedMph;
     var daysToMars = hours / 24;
+    return daysToMars;
 }
 // Call the function and print the outputs for the Mars trip and the moon trip:
 console.log("It would take " + getDaysToLocation(kilometersToMars) + " days in spacecraft " + spacecraftName + " to get to Mars.");

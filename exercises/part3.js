@@ -7,7 +7,7 @@ var kilometersToTheMoon = 384400;
 var milesPerKilometer = 0.621;
 // Code the "getDaysToLocation" function here:
 function getDaysToLocation(kilometersAway) {
-    var milesAway = kilometersToMars * milesPerKilometer;
+    var milesAway = kilometersAway * milesPerKilometer;
     var hours = milesAway / speedMph;
     var daysToMars = hours / 24;
 }

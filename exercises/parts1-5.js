@@ -1,9 +1,15 @@
 "use strict";
+// URL for the instructions: 
+// https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html 
 exports.__esModule = true;
-// Add your import statement to line 2:
+// Part 5: Import statement.
 var SpaceLocation_1 = require("./SpaceLocation");
+// Part 1: Remaining variables.
 var kilometersToMars = 225000000;
 var kilometersToTheMoon = 384400;
+// Part 2: Content moved into class. Output statements updated.
+// Part 3: Content moved into class. Output statements updated.
+// Part 4: Define your Spacecraft class:
 var Spacecraft = /** @class */ (function () {
     function Spacecraft(name, speedMph) {
         this.milesPerKilometer = 0.621;
@@ -20,8 +26,8 @@ var Spacecraft = /** @class */ (function () {
     };
     return Spacecraft;
 }());
-// Create an instance of Spacecraft:
-var spaceShuttle = new Spacecraft('Discovery', 17500);
-// Print the output for the trips to Mars and the moon:
+// Create an instance of the class here:
+var spaceShuttle = new Spacecraft('Determination', 17500);
+// Part 5: Paste in the code from step 6 here:
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('the Moon', kilometersToTheMoon));

@@ -1,5 +1,5 @@
-let kilometersToMars: number = 225000000;
-let kilometersToTheMoon: number = 384400;
+// let kilometersToMars: number = 225000000;
+// let kilometersToTheMoon: number = 384400;
 
 
 // The variables that are commented out will be moved into the Spacecraft class

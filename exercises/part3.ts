@@ -1,7 +1,7 @@
 // URL for the instructions: 
 // https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html 
 
-let spacecraftName: string = "Space Shuttle";
+let spacecraftName: string = "Determination";
 let speedMph: number = 17500;
 let kilometersToMars: number = 225000000;
 let kilometersToTheMoon: number = 384400;

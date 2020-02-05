@@ -38,12 +38,9 @@ class Spacecraft {
 }
 
 // Create an instance of the class here:
-let spaceShuttle = new Spacecraft('Discovery', 17500);
+let spaceShuttle = new Spacecraft('Determination', 17500);
 
 
-// Part 5: Add the required import statement BEFORE the part 1 concent.
-
-
-// Paste in the code from step 6 here:
+// Part 5: Paste in the code from step 6 here:
 spaceShuttle.printDaysToLocation(new SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation('the Moon', kilometersToTheMoon));

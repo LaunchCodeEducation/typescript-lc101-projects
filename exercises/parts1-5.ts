@@ -2,37 +2,41 @@
 // https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html 
 
 
-// Part 1: Add the 5 variables here
+// Part 1: Add the 5 variables here.
 
 
 
-// Part 2:
-
-
-// Code the output statement here (use a template literal):
+// Part 2: Declare and assign the 3 new variables here.
 
 
 
-// Part 3:
-// Code the "getDaysToLocation" function here:
+// Code an output statement here (use a template literal):
 
 
-// Call the function and print the outputs for the Mars trip and the moon trip:
+
+// Part 3: Code the "getDaysToLocation" function here:
 
 
-// Part 4:
-/* Move the variables spacecraftName, speedMph, and milesPerKilometer into the
-    Spacecraft class. Also move your getDaysToLocation function into the Spacecraft
-    class. */
 
+// Move your output statement from part 2 here. Update the template literal to call
+// the function and print the outputs for a Mars trip and a moon trip.
+
+
+
+
+// Part 4: Move the function and 3 variables into a class.
 // Define your Spacecraft class here:
+
 
 
 // Create an instance of the class here:
 
 
 
-// Print two outputs - one for the trip to Mars and one for the trip to the moon.
+// Move your output statements from part 3 here. Update the template literals use the
+// instance of the class.
+
+
 
 // Part 5: Add the required import statement BEFORE the part 1 concent.
 

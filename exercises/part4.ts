@@ -3,7 +3,7 @@ let kilometersToTheMoon: number = 384400;
 
 
 // The variables that are commented out will be moved into the Spacecraft class
-// let spaceCraft: string = "Space Shuttle";
+// let spaceCraft: string = "Determination";
 // let speedMph: number = 17500;
 // let milesPerKilometer: number = 0.621;
 

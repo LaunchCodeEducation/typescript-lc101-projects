@@ -2,11 +2,11 @@
 // https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html 
 
 
-// Part 1: Add the 5 variables here.
+// Part 1: Declare (5) Variables With Type
 
 
 
-// Part 2: Declare and assign the 3 new variables here.
+// Part 2: Print Days to Mars
 
 
 
@@ -14,7 +14,7 @@
 
 
 
-// Part 3: Code the "getDaysToLocation" function here:
+// Part 3: Create a Function ("getDaysToLocation")
 
 
 
@@ -24,8 +24,8 @@
 
 
 
-// Part 4: Move the function and 3 variables into a class.
-// Define your Spacecraft class here:
+// Part 4: Create a Spacecraft Class
+
 
 
 
@@ -38,7 +38,8 @@
 
 
 
-// Part 5: Add the required import statement BEFORE the part 1 concent.
+// Part 5: Export and Import the SpaceLocation Class
+// Add the required import statement BEFORE the part 1 concent.
 
 
 // Add the printDaysToLocation function to the Spacecraft class.
